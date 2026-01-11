@@ -16,8 +16,11 @@ module.exports = {
         musicData.messageId
       );
 
+      const nowPlaying = nowPlayingEmbed({ guild: channel.guild, track });
+
       await musicMessage.edit({
-        embeds: [nowPlayingEmbed({ guild: channel.guild, track })],
+        embeds: [nowPlaying.embed],
+        files: nowPlaying.files || [],
         attachments: [],
       });
     }

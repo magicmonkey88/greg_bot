@@ -19,7 +19,7 @@ const buildMusicSetupEmbed = (guild) => {
 const buildSongEmbed = ({ guild, track }) => {
   const { title, author, thumbnail, duration } = track;
 
-  return new EmbedBuilder()
+  const embed = new EmbedBuilder()
     .setColor("DarkPurple")
     .setTitle("Greg's Bard")
     .setDescription(`**${title}** has been added to the queue!`)
@@ -29,15 +29,20 @@ const buildSongEmbed = ({ guild, track }) => {
       { name: "**Author**:", value: author, inline: true },
       { name: "**Duration**:", value: duration }
     )
-    .setImage(thumbnail)
     .setTimestamp()
     .setFooter({ text: guild.name, iconURL: guild.iconURL() });
+
+  if (thumbnail) {
+    embed.setImage(thumbnail);
+  }
+
+  return embed;
 };
 
 const nowPlayingEmbed = ({ guild, track }) => {
   const { title, author, thumbnail, duration } = track;
 
-  return new EmbedBuilder()
+  const embed = new EmbedBuilder()
     .setColor("DarkPurple")
     .setTitle("Greg's Bard")
     .setDescription(`**${title}** is now playing!`)
@@ -47,9 +52,17 @@ const nowPlayingEmbed = ({ guild, track }) => {
       { name: "**Author**:", value: author, inline: true },
       { name: "**Duration**:", value: duration }
     )
-    .setImage(thumbnail)
     .setTimestamp()
     .setFooter({ text: guild.name, iconURL: guild.iconURL() });
+
+  if (thumbnail) {
+    embed.setImage(thumbnail);
+    return { embed };
+  }
+
+  const attachment = new AttachmentBuilder("./images/Greg_Music.png");
+  embed.setImage("attachment://Greg_Music.png");
+  return { embed, files: [attachment] };
 };
 
 const buildRandomCatEmbed = ({ guild, member, imageUrl }) => {

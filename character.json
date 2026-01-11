@@ -1,0 +1,558 @@
+{
+  "Character": {
+    "ID": 26123781,
+    "ActiveClassjob": "https://lds-img.finalfantasyxiv.com/h/1/erCgjnMSiab4LiHpWxVc-tXAqk.png",
+    "Level": 78,
+    "Avatar": "https://img2.finalfantasyxiv.com/f/ee1d670505f66ad54fd61079eb5d2a4d_feaf0a2e88ff164813fbc9b85876fa48fc0.jpg?1748998662",
+    "Bio": "-",
+    "ClassjobIcons": {
+      "List": [
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/h/iMiPYBWuh22FtFJTn2coPIp0I0.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/D/_VRXR3uARNQzxAv1v16NYvS5xk.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/te5gEgEroS6xWX-bPrAVizJcSg.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/GCeqpMdmlXy1eMmi0K_899AWnA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/w/bYicY0UQPnsG5cFAQClqLocfMw.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/oa00pPEkTk1Mc-dDLmJ7mc2h4o.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/U/F5JzG9RPIKFSogtaKNBk455aYA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/N/St9rjDJB3xNKGYg-vwooZ4j6CM.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/l/5CZEvDOMYMyVn2td9LZigsgw9s.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/8/hg8ofSSOKzqng290No55trV4mI.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/7/i20QvSPcSQTybykLZDbQCgPwMw.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/7/WdFey0jyHn9Nnt1Qnm-J3yTg5s.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/1/erCgjnMSiab4LiHpWxVc-tXAqk.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/g/_oYApASVVReLLmsokuCJGkEpk0.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/K/HW6tKOg4SOJbL8Z20GnsAWNjjM.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/k/tYTpoSwFLuGYGDJMff8GEFuDQs.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/y/wdwVVcptybfgSruoh8R344y_GA.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/m/KndG72XtCFwaq1I1iqwcmO_0zc.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/7/cLlXUaeMPJDM2nBhIeM-uDmPzM.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/WojNTqMJ_Ye1twvkIhw825zc20.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/F/KWI-9P3RX_Ojjn_mwCS2N0-3TI.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/E/vmtbIlf6Uv8rVp2YFCWA25X0dc.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/t/HK0jQ1y7YV9qm30cxGOVev6Cck.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/P/V01m8YRBYcIs5vgbRtpDiqltSE.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/h/4ghjpyyuNelzw1Bl0sM_PBA_FE.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/q/s3MlLUKmRAHy0pH57PnFStHmIw.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/_/kLob-U-yh652LQPX1NHpLlUYQY.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/p/jdV3RRKtWzgo226CC09vjen5sk.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/v/YCN6F-xiXf03Ts3pXoBihh2OBk.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/5/EEHVV5cIPkOZ6v5ALaoN5XSVRU.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/G/Rq5wcK3IPEaAB8N-T9l6tBPxCY.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/L/LbEjgw0cwO_2gQSmhta9z03pjM.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/b/ACAcQe3hWFxbWRVPqxKj_MzDiY.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/X/E69jrsOMGFvFpCX87F5wqgT_Vo.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/C/bBVQ9IFeXqjEdpuIxmKvSkqalE.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/m/1kMI2v_KEVgo30RFvdFCyySkFo.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/A/aM2Dd6Vo4HW_UGasK7tLuZ6fu4.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/I/jGRnjIlwWridqM-mIPNew6bhHM.png"
+        },
+        {
+          "Icon": "https://lds-img.finalfantasyxiv.com/h/x/B4Azydbn7Prubxt7OL9p1LZXZ0.png"
+        }
+      ]
+    },
+    "FreeCompany": {
+      "ID": "9235334723364999329",
+      "Name": "Dungeon CrawlerZ",
+      "IconLayers": {
+        "Bottom": "https://img2.finalfantasyxiv.com/c/B3b_9921a142051ac64d8232725018aa9537_c3_40x40.png",
+        "MIDdle": "https://img2.finalfantasyxiv.com/c/F2c_2967b5f71ad7d56c244064016e89e276_00_40x40.png",
+        "Top": "https://img2.finalfantasyxiv.com/c/S8a_12f2402f37470b32f51e147c22b0ae03_03_40x40.png"
+      }
+    },
+    "Name": "Baarbara Cardigan",
+    "Rank": "Storm Captain",
+    "GuardianDeity": {
+      "Name": "Rhalgr, the Destroyer",
+      "Icon": "https://lds-img.finalfantasyxiv.com/h/O/MAa0UWAUCGukTODl0MAsfWZK4k.png"
+    },
+    "Nameday": "21st Sun of the 4th Umbral Moon",
+    "Portrait": "https://img2.finalfantasyxiv.com/f/ee1d670505f66ad54fd61079eb5d2a4d_feaf0a2e88ff164813fbc9b85876fa48fl0.jpg?1748998662",
+    "PvpTeam": null,
+    "Race": "Viera",
+    "Tribe": "Veena",
+    "Gender": "♀",
+    "World": "Spriggan",
+    "DC": "Chaos",
+    "Title": "The Returned",
+    "Town": {
+      "Name": "Limsa Lominsa",
+      "Icon": "https://lds-img.finalfantasyxiv.com/h/j/Xlz3DzGOKmwiDGho5aGWaudRNI.png"
+    },
+    "Strength": 164,
+    "Dexterity": 330,
+    "Vitality": 1204,
+    "Intelligence": 349,
+    "Mind": 1299,
+    "CriticalHitRate": 607,
+    "Determination": 885,
+    "DirectHitRate": 376,
+    "Defense": 884,
+    "MagicDefense": 1542,
+    "AttackPower": 164,
+    "SkillSpeed": 376,
+    "AttackMagicPotency": 1299,
+    "HealingMagicPotency": 1299,
+    "SpellSpeed": 737,
+    "Tenacity": 376,
+    "Piety": 750,
+    "Hp": 17506,
+    "MpGpCp": 10000,
+    "MpGpCpParameterName": "MP",
+    "Mainhand": {
+      "Name": "Augmented Scaevan Magitek Orrery",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "MirageName": "Susano's Rapturous Ephemeris<a href=\"/lodestone/playguide/db/item/0d166bafae7/\" class=\"db-tooltip__item__mirage__btn\"></a>",
+      "ClassList": "AST",
+      "ItemLevel": "Item Level 400"
+    },
+    "Offhand": null,
+    "Head": {
+      "Name": "Augmented Scaevan Mask of Healing",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "ClassList": "CNJ WHM SCH AST SGE",
+      "ItemLevel": "Item Level 400"
+    },
+    "Body": {
+      "Name": "Augmented Scaevan Coat of Healing",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "MirageName": "Martial Artist's Sleeveless Vest<a href=\"/lodestone/playguide/db/item/b9455bc6f4e/\" class=\"db-tooltip__item__mirage__btn\"></a>",
+      "ClassList": "CNJ WHM SCH AST SGE",
+      "ItemLevel": "Item Level 400"
+    },
+    "Hands": {
+      "Name": "Augmented Scaevan Gloves of Healing",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "MirageName": "Virtu Welkin Half Sleeves<a href=\"/lodestone/playguide/db/item/a60869c97d6/\" class=\"db-tooltip__item__mirage__btn\"></a>",
+      "ClassList": "CNJ WHM SCH AST SGE",
+      "ItemLevel": "Item Level 400"
+    },
+    "Waist": null,
+    "Legs": {
+      "Name": "Skallic Bottoms of Healing",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "MirageName": "Virtu Welkin Breeches<a href=\"/lodestone/playguide/db/item/dc9c1933e1b/\" class=\"db-tooltip__item__mirage__btn\"></a>",
+      "Stain": "General-purpose Jet Black Dye",
+      "ClassList": "CNJ WHM SCH AST SGE",
+      "ItemLevel": "Item Level 315"
+    },
+    "Feet": {
+      "Name": "Antiquated Constellation Sandals",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "MirageName": "Hraesvelgr Boots<a href=\"/lodestone/playguide/db/item/396c1430fd5/\" class=\"db-tooltip__item__mirage__btn\"></a>",
+      "ClassList": "AST",
+      "ItemLevel": "Item Level 290"
+    },
+    "Earrings": {
+      "Name": "Azeyma's Earrings",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "ClassList": "Disciples of War or Magic",
+      "ItemLevel": "Item Level 560"
+    },
+    "Necklace": {
+      "Name": "Skallic Necklace of Healing",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "ClassList": "CNJ WHM SCH AST SGE",
+      "ItemLevel": "Item Level 315"
+    },
+    "Bracelets": {
+      "Name": "Yanxian Bracelets of Healing",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "ClassList": "CNJ WHM SCH AST SGE",
+      "ItemLevel": "Item Level 282"
+    },
+    "Ring1": {
+      "Name": "Augmented Shire Preceptor's Ring",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "ClassList": "All Classes",
+      "ItemLevel": "Item Level 270"
+    },
+    "Ring2": {
+      "Name": "Augmented Shire Preceptor's Ring",
+      "DbLink": "<img src=\"https://lds-img.finalfantasyxiv.com/h/J/YW76_G2zKdEnsPJVgE28mpzqkY.png\" width=\"300\" height=\"60\" alt=\"View Item Details\">",
+      "ClassList": "All Classes",
+      "ItemLevel": "Item Level 270"
+    },
+    "Soulcrystal": {
+      "Name": "Soul of the Astrologian",
+      "ClassList": "AST",
+      "ItemLevel": "Item Level 30"
+    }
+  },
+  "ClassJobs": {
+    "Bozja": {
+      "Level": 8,
+      "Mettle": "38,032",
+      "Name": "Elemental Level"
+    },
+    "Eureka": {
+      "CurrentEXP": "--",
+      "MaxEXP": "Mettle",
+      "Level": 25,
+      "Name": "Resistance Rank"
+    },
+    "Paladin": {
+      "Level": 27,
+      "Unlockstate": "Gladiator",
+      "CurrentEXP": "6,880",
+      "MaxEXP": "54,600"
+    },
+    "Warrior": {
+      "Level": 25,
+      "Unlockstate": "Marauder",
+      "CurrentEXP": 0,
+      "MaxEXP": "40,800"
+    },
+    "Darkknight": {
+      "Level": 100,
+      "Unlockstate": "Dark Knight",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Gunbreaker": {
+      "Level": 91,
+      "Unlockstate": "Gunbreaker",
+      "CurrentEXP": "1,433,871",
+      "MaxEXP": "13,659,000"
+    },
+    "Whitemage": {
+      "Level": 31,
+      "Unlockstate": "White Mage",
+      "CurrentEXP": "20,069",
+      "MaxEXP": "74,000"
+    },
+    "Scholar": {
+      "Level": 100,
+      "Unlockstate": "Scholar",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Astrologian": {
+      "Level": 78,
+      "Unlockstate": "Astrologian",
+      "CurrentEXP": "4,487,500",
+      "MaxEXP": "4,777,000"
+    },
+    "Sage": {
+      "Level": 100,
+      "Unlockstate": "Sage",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Monk": {
+      "Level": 73,
+      "Unlockstate": "Monk",
+      "CurrentEXP": "2,346,696",
+      "MaxEXP": "3,324,000"
+    },
+    "Dragoon": {
+      "Level": 15,
+      "Unlockstate": "Lancer",
+      "CurrentEXP": "11,389",
+      "MaxEXP": "13,100"
+    },
+    "Ninja": {
+      "Level": 29,
+      "Unlockstate": "Rogue",
+      "CurrentEXP": "48,854",
+      "MaxEXP": "65,600"
+    },
+    "Samurai": {
+      "Level": 79,
+      "Unlockstate": "Samurai",
+      "CurrentEXP": 0,
+      "MaxEXP": "5,256,000"
+    },
+    "Reaper": {
+      "Level": 73,
+      "Unlockstate": "Reaper",
+      "CurrentEXP": "2,192,834",
+      "MaxEXP": "3,324,000"
+    },
+    "Viper": {
+      "Level": 80,
+      "Unlockstate": "Viper",
+      "CurrentEXP": 0,
+      "MaxEXP": "5,992,000"
+    },
+    "Bard": {
+      "Level": 32,
+      "Unlockstate": "Bard",
+      "CurrentEXP": "42,677",
+      "MaxEXP": "82,700"
+    },
+    "Machinist": {
+      "Level": 30,
+      "Unlockstate": "Machinist",
+      "CurrentEXP": 0,
+      "MaxEXP": "68,400"
+    },
+    "Dancer": {
+      "Level": 60,
+      "Unlockstate": "Dancer",
+      "CurrentEXP": 0,
+      "MaxEXP": "1,387,000"
+    },
+    "Blackmage": {
+      "Level": 80,
+      "Unlockstate": "Black Mage",
+      "CurrentEXP": 0,
+      "MaxEXP": "5,992,000"
+    },
+    "Summoner": {
+      "Level": 100,
+      "Unlockstate": "Summoner",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Redmage": {
+      "Level": 52,
+      "Unlockstate": "Red Mage",
+      "CurrentEXP": "530,208",
+      "MaxEXP": "580,000"
+    },
+    "Pictomancer": {
+      "Level": 80,
+      "Unlockstate": "Pictomancer",
+      "CurrentEXP": 0,
+      "MaxEXP": "5,992,000"
+    },
+    "Bluemage": {
+      "Level": 70,
+      "Unlockstate": "Blue Mage",
+      "CurrentEXP": 0,
+      "MaxEXP": "2,923,000"
+    },
+    "Carpenter": {
+      "Level": 100,
+      "Unlockstate": "Carpenter",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Blacksmith": {
+      "Level": 100,
+      "Unlockstate": "Blacksmith",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Armorer": {
+      "Level": 90,
+      "Unlockstate": "Armorer",
+      "CurrentEXP": 0,
+      "MaxEXP": "13,278,000"
+    },
+    "Goldsmith": {
+      "Level": 92,
+      "Unlockstate": "Goldsmith",
+      "CurrentEXP": "8,442,553",
+      "MaxEXP": "15,348,000"
+    },
+    "Leatherworker": {
+      "Level": 91,
+      "Unlockstate": "Leatherworker",
+      "CurrentEXP": "899,370",
+      "MaxEXP": "13,659,000"
+    },
+    "Weaver": {
+      "Level": 90,
+      "Unlockstate": "Weaver",
+      "CurrentEXP": "7,068,068",
+      "MaxEXP": "13,278,000"
+    },
+    "Alchemist": {
+      "Level": 90,
+      "Unlockstate": "Alchemist",
+      "CurrentEXP": "6,199,100",
+      "MaxEXP": "13,278,000"
+    },
+    "Culinarian": {
+      "Level": 90,
+      "Unlockstate": "Culinarian",
+      "CurrentEXP": "1,391,555",
+      "MaxEXP": "13,278,000"
+    },
+    "Miner": {
+      "Level": 100,
+      "Unlockstate": "Miner",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Botanist": {
+      "Level": 100,
+      "Unlockstate": "Botanist",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    },
+    "Fisher": {
+      "Level": 100,
+      "Unlockstate": "Fisher",
+      "CurrentEXP": "--",
+      "MaxEXP": "--"
+    }
+  }
+}
