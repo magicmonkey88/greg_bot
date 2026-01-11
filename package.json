@@ -11,17 +11,8 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
-    "@discord-player/extractor": "^7.1.0",
-    "@napi-rs/canvas": "^0.1.88",
-    "axios": "^1.13.2",
-    "discord-player": "^7.1.0",
-    "discord-player-spotify": "^1.1.7",
-    "discord-player-youtube": "^0.8.2",
-    "discord.js": "^14.25.1",
-    "dotenv": "^17.2.3",
-    "mariadb": "^3.4.5",
-    "random-cat-img": "^1.1.8",
-    "sequelize": "^6.37.7",
-    "undici": "^7.18.2"
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "random-cat-img": "^1.1.8"
   }
 }
