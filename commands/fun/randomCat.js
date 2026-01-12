@@ -1,33 +1,44 @@
 const {
   SlashCommandBuilder,
-  EmbedBuilder,
-  CommandInteraction,
+  PermissionsBitField,
 } = require("discord.js");
 const getRandomCat = require("random-cat-img");
+const { ensurePermissions } = require("../../functions/permission-checks");
+const { defineCommand } = require("../../functions/discord-helpers");
+const { buildRandomCatEmbed } = require("../../functions/embeds");
 
-module.exports = {
+module.exports = defineCommand({
   data: new SlashCommandBuilder()
     .setName("random-cat")
     .setDescription("Provides an Image of a Random Cat."),
-  /**
-   *
-   * @param {CommandInteraction} interation
-   */
   async execute(interation) {
     const { member, guild } = interation;
-    const RandomCatImage = await getRandomCat();
-    const catEmbed = new EmbedBuilder()
-      .setColor("Orange")
-      .setTitle("Random Cat")
-      .setAuthor({
-        name: `Requested by ${member.displayName}`,
-        iconURL: member.displayAvatarURL(),
-      })
-      .setThumbnail(guild.iconURL())
-      .setImage(RandomCatImage.message)
-      .setTimestamp()
-      .setFooter({ text: guild.name, iconURL: guild.iconURL() });
+    const channelPermissionsOk = await ensurePermissions({
+      interaction: interation,
+      channel: interation.channel,
+      permissions: [
+        {
+          flag: PermissionsBitField.Flags.SendMessages,
+          label: "Send Messages",
+        },
+        {
+          flag: PermissionsBitField.Flags.EmbedLinks,
+          label: "Embed Links",
+        },
+      ],
+    });
 
-    await interation.reply({ embeds: [catEmbed] });
+    if (!channelPermissionsOk) return;
+
+    const RandomCatImage = await getRandomCat();
+    await interation.reply({
+      embeds: [
+        buildRandomCatEmbed({
+          guild,
+          member,
+          imageUrl: RandomCatImage.message,
+        }),
+      ],
+    });
   },
-};
+});
