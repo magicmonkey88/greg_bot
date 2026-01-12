@@ -1,4 +1,5 @@
 const db = require("../database");
+const { buildMusicSetupEmbed } = require("./embeds");
 
 const guildCheck = async (client) => {
   const { Guild } = db;
@@ -41,23 +42,54 @@ const guildCheck = async (client) => {
       continue;
     }
 
-    if (!guildRow.musicChannelMessage) continue;
+    const ensureMessage = async () => {
+      if (!channel.isTextBased?.()) return;
 
-    try {
-      if (channel.isTextBased?.()) {
-        await channel.messages.fetch(guildRow.musicChannelMessage);
+      const { embed, files } = buildMusicSetupEmbed(guild);
+
+      if (!guildRow.musicChannelMessage) {
+        const message = await channel.send({ embeds: [embed], files });
+        await Guild.update(
+          { musicChannelMessage: message.id },
+          { where: { id: guildRow.id } }
+        );
+        client.musicChannel?.set(guildRow.id, {
+          channelId: guildRow.musicChannel,
+          messageId: message.id,
+        });
+        return;
       }
-      client.musicChannel?.set(guildRow.id, {
-        channelId: guildRow.musicChannel,
-        messageId: guildRow.musicChannelMessage,
-      });
-    } catch (error) {
-      await Guild.update(
-        { musicChannelMessage: null },
-        { where: { id: guildRow.id } }
-      );
-      client.musicChannel?.delete(guildRow.id);
-    }
+
+      try {
+        const message = await channel.messages.fetch(
+          guildRow.musicChannelMessage
+        );
+        const hasSetupEmbed = message.embeds?.some(
+          (existing) => existing?.title === "Greg's Bard is Ready"
+        );
+
+        if (!hasSetupEmbed) {
+          await message.edit({ embeds: [embed], files });
+        }
+
+        client.musicChannel?.set(guildRow.id, {
+          channelId: guildRow.musicChannel,
+          messageId: guildRow.musicChannelMessage,
+        });
+      } catch (error) {
+        const message = await channel.send({ embeds: [embed], files });
+        await Guild.update(
+          { musicChannelMessage: message.id },
+          { where: { id: guildRow.id } }
+        );
+        client.musicChannel?.set(guildRow.id, {
+          channelId: guildRow.musicChannel,
+          messageId: message.id,
+        });
+      }
+    };
+
+    await ensureMessage();
   }
 };
 

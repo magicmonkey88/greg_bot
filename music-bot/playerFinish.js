@@ -5,7 +5,6 @@ module.exports = {
   name: GuildQueueEvent.PlayerFinish,
   async execute(queue, track) {
     const { channel } = queue.metadata;
-    // await channel.send(`Finished playing ${track.title}`);
 
     const musicData = channel.client.musicChannel.get(channel.guildId);
 

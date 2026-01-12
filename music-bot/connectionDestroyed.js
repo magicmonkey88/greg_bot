@@ -1,9 +1,9 @@
 const { GuildQueueEvent } = require("discord-player");
-const { nowPlayingEmbed } = require("../functions/embeds");
+const { buildMusicSetupEmbed } = require("../functions/embeds");
 
 module.exports = {
-  name: GuildQueueEvent.PlayerStart,
-  async execute(queue, track) {
+  name: GuildQueueEvent.ConnectionDestroyed,
+  async execute(queue) {
     const { channel } = queue.metadata;
 
     const musicData = channel.client.musicChannel.get(channel.guildId);
@@ -16,11 +16,11 @@ module.exports = {
         musicData.messageId
       );
 
-      const nowPlaying = nowPlayingEmbed({ guild: channel.guild, track });
+      const { embed, files } = buildMusicSetupEmbed(channel.guild);
 
       await musicMessage.edit({
-        embeds: [nowPlaying.embed],
-        files: nowPlaying.files || [],
+        embeds: [embed],
+        files,
         attachments: [],
       });
     }

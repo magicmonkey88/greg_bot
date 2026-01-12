@@ -101,19 +101,66 @@ module.exports = defineCommand({
 
     if (!voicePermissionsOk) return;
 
+    let parsedUrl;
     try {
+      parsedUrl = new URL(query);
+    } catch (error) {
+      return interaction.reply({
+        content: "Please provide a Spotify or YouTube link.",
+        flags: MessageFlags.Ephemeral,
+      });
+    }
+
+    const hostname = parsedUrl.hostname.replace(/^www\./, "").toLowerCase();
+    const allowedHosts = new Set([
+      "open.spotify.com",
+      "spotify.link",
+      "youtube.com",
+      "m.youtube.com",
+      "music.youtube.com",
+      "youtu.be",
+    ]);
+
+    if (!allowedHosts.has(hostname)) {
+      return interaction.reply({
+        content: "Only Spotify or YouTube links are supported for /play.",
+        flags: MessageFlags.Ephemeral,
+      });
+    }
+
+    try {
+      if (!interaction.deferred && !interaction.replied) {
+        await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+      }
+
       const result = await player.play(voiceChannel, query, {
         nodeOptions: {
           metadata: { channel: interaction.channel },
         },
       });
 
+      const songEmbed = buildSongEmbed({ guild, track: result.track });
+
+      if (interaction.deferred || interaction.replied) {
+        return interaction.editReply({
+          embeds: [songEmbed.embed],
+          files: songEmbed.files || [],
+        });
+      }
+
       return interaction.reply({
-        embeds: [buildSongEmbed({ guild, track: result.track })],
+        embeds: [songEmbed.embed],
+        files: songEmbed.files || [],
         flags: MessageFlags.Ephemeral,
       });
     } catch (error) {
       console.error(error);
+      if (interaction.deferred || interaction.replied) {
+        return interaction.editReply({
+          content: "An error occurred while playing the song!",
+        });
+      }
+
       return interaction.reply({
         content: "An error occurred while playing the song!",
         flags: MessageFlags.Ephemeral,

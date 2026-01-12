@@ -94,6 +94,10 @@ module.exports = defineCommand({
     const guildDB = await Guild.findOne({ where: { id: interaction.guildId } });
 
     if (!guildDB.musicChannel) {
+      if (!interaction.deferred && !interaction.replied) {
+        await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+      }
+
       const musicChannel = await interaction.guild.channels.create({
         name: "Greg's Bard",
         type: ChannelType.GuildText,
@@ -124,9 +128,8 @@ module.exports = defineCommand({
         files,
       });
 
-      await interaction.reply({
+      await interaction.editReply({
         content: `✅ Created music channel: ${musicChannel}`,
-        flags: MessageFlags.Ephemeral,
       });
 
       await guildDB.update({

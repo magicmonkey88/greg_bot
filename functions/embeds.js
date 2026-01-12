@@ -1,7 +1,8 @@
 const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
 
+const attachment = new AttachmentBuilder("./images/Greg_Music.png");
+
 const buildMusicSetupEmbed = (guild) => {
-  const attachment = new AttachmentBuilder("./images/Greg_Music.png");
   const embed = new EmbedBuilder()
     .setColor("DarkPurple")
     .setTitle("Greg's Bard is Ready")
@@ -17,7 +18,11 @@ const buildMusicSetupEmbed = (guild) => {
 };
 
 const buildSongEmbed = ({ guild, track }) => {
-  const { title, author, thumbnail, duration } = track;
+  const safeTrack = track || {};
+  const title = safeTrack.title || "Unknown track";
+  const author = safeTrack.author || "Unknown artist";
+  const thumbnail = safeTrack.thumbnail;
+  const duration = safeTrack.duration || "Unknown";
 
   const embed = new EmbedBuilder()
     .setColor("DarkPurple")
@@ -34,13 +39,19 @@ const buildSongEmbed = ({ guild, track }) => {
 
   if (thumbnail) {
     embed.setImage(thumbnail);
+    return { embed };
   }
 
-  return embed;
+  embed.setImage("attachment://Greg_Music.png");
+  return { embed, files: [attachment] };
 };
 
 const nowPlayingEmbed = ({ guild, track }) => {
-  const { title, author, thumbnail, duration } = track;
+  const safeTrack = track || {};
+  const title = safeTrack.title || "Unknown track";
+  const author = safeTrack.author || "Unknown artist";
+  const thumbnail = safeTrack.thumbnail;
+  const duration = safeTrack.duration || "Unknown";
 
   const embed = new EmbedBuilder()
     .setColor("DarkPurple")
@@ -60,7 +71,6 @@ const nowPlayingEmbed = ({ guild, track }) => {
     return { embed };
   }
 
-  const attachment = new AttachmentBuilder("./images/Greg_Music.png");
   embed.setImage("attachment://Greg_Music.png");
   return { embed, files: [attachment] };
 };
