@@ -2,8 +2,8 @@ const { GuildQueueEvent } = require("discord-player");
 const { buildMusicSetupEmbed } = require("../functions/embeds");
 
 module.exports = {
-  name: GuildQueueEvent.PlayerFinish,
-  async execute(queue, track) {
+  name: GuildQueueEvent.Disconnect,
+  async execute(queue) {
     const { channel } = queue.metadata;
 
     const musicData = channel.client.musicChannel.get(channel.guildId);
@@ -20,6 +20,7 @@ module.exports = {
 
       await musicMessage.edit({
         embeds: [embed],
+        components: [],
         files,
         attachments: [],
       });

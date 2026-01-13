@@ -42,6 +42,26 @@ const guildCheck = async (client) => {
       continue;
     }
 
+    if (channel.isTextBased?.()) {
+      try {
+        const messages = await channel.messages.fetch({ limit: 50 });
+        const voteMessages = messages.filter(
+          (message) =>
+            message.author?.id === client.user?.id &&
+            message.id !== guildRow.musicChannelMessage &&
+            message.content?.startsWith("⏭️")
+        );
+        for (const message of voteMessages.values()) {
+          await message.delete().catch(() => {});
+        }
+      } catch (error) {
+        console.error(
+          `Failed to clean skip vote messages for guild ${guildRow.id}:`,
+          error
+        );
+      }
+    }
+
     const ensureMessage = async () => {
       if (!channel.isTextBased?.()) return;
 
@@ -69,7 +89,7 @@ const guildCheck = async (client) => {
         );
 
         if (!hasSetupEmbed) {
-          await message.edit({ embeds: [embed], files });
+          await message.edit({ embeds: [embed], components: [], files });
         }
 
         client.musicChannel?.set(guildRow.id, {
@@ -77,7 +97,11 @@ const guildCheck = async (client) => {
           messageId: guildRow.musicChannelMessage,
         });
       } catch (error) {
-        const message = await channel.send({ embeds: [embed], files });
+        const message = await channel.send({
+          embeds: [embed],
+          components: [],
+          files,
+        });
         await Guild.update(
           { musicChannelMessage: message.id },
           { where: { id: guildRow.id } }
